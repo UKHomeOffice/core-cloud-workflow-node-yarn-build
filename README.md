@@ -1,6 +1,6 @@
 # Core Cloud Workflow Node yarn build
 
-A GitHub Actions workflow for running yarn build on Node.js projects to identify and report code quality issues.
+A GitHub Actions workflow for running yarn build on Node.js to build Node applications.
 
 ## Overview
 

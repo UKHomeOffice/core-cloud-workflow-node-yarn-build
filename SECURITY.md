@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Overview
-This repository forms part of the UK Home Office Core Cloud Platform’s shared GitHub Actions tooling. It contains a reusable yarn lint composite GitHub Action used across the platform to maintain node code.
+This repository forms part of the UK Home Office Core Cloud Platform’s shared GitHub Actions tooling. It contains a reusable yarn build composite GitHub Action used across the platform to maintain node code.
 
 Because of its purpose, the repository includes **intentionally invalid Node code** for testing, validation, and demonstration.
 
@@ -15,11 +15,11 @@ The directories:
 
 contain node code that:
 
-* violate eslint rules
+* will fail when building
 
 These files are required to:
 
-* validate the yarn lint reusable action
+* validate the yarn build reusable action
 
 These files **must not** be treated as code.
 
